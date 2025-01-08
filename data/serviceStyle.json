@@ -1,0 +1,39 @@
+{
+  "serviceOne": [
+    {
+      "img": "/images/icons/service-icon-04.svg",
+      "title": "Expert-Led Training",
+      "desc": "Learn from industry-leading instructors with years of hands-on experience, delivering actionable insights and practical knowledge."
+    },
+    {
+      "img": "/images/icons/service-icon-02.svg",
+      "title": "Global Expertise",
+      "desc": "Our instructors bring worldwide experience and best practices to help your teams stay ahead in a rapidly evolving business landscape."
+    },
+    {
+      "img": "/images/icons/service-icon-03.svg",
+      "title": "Customized Learning Paths",
+      "desc": "We offer tailored training programs designed to meet your company’s unique goals, led by instructors with proven expertise in their fields."
+    }
+  ],
+  "serviceTwo": [
+    {
+      "img": "/images/service/service-icon-01.png",
+      "imgLight": "/images/light/service/service-icon-01.png",
+      "title": "Coorporate Training",
+      "desc": "Equip teams with the latest tools and techniques to work efficiently and drive better results."
+    },
+    {
+      "img": "/images/service/service-icon-02.png",
+      "imgLight": "/images/light/service/service-icon-02.png",
+      "title": "Robotic Process Automation",
+      "desc": "streamlines business operations by using software bots "
+    },
+    {
+      "img": "/images/service/service-icon-03.png",
+      "imgLight": "/images/light/service/service-icon-03.png",
+      "title": "CRM & ERP Software",
+      "desc": "Streamline business operations, manage customer interactions, automate workflows,"
+    }
+  ]
+}

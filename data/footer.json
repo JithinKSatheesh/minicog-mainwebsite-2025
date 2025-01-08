@@ -1,0 +1,59 @@
+{
+  "footer": [
+    {
+      "links": [
+        {
+          "title": "Qucik Links",
+          "innerItem": [
+            {
+              "link": "#",
+              "text": "Home"
+            },
+            {
+              "link": "/blog",
+              "text": "Services"
+            },
+            {
+              "link": "/contact",
+              "text": "Contact"
+            },
+            {
+              "link": "/help",
+              "text": "FAQ"
+            }
+          ]
+        }
+      ],
+      "services": [
+        {
+          "title": "Services",
+          "innerItem": [
+            {
+              "link": "/services#",
+              "text": "AI Consulting & Development Services"
+            },
+            {
+              "link": "/services#",
+              "text": "Corporate Taining & Bootcamp"
+            },
+            {
+              "link": "/services#",
+              "text": "Intelligent Enterprise Search Engine."
+            },
+            {
+              "link": "/services#",
+              "text": "NoCode ML & BI Tool for Managers"
+            }
+          ]
+        }
+      ],
+      "contact": [
+        {
+          "location": "India, UAE",
+          "mail": "info@mincog.ai",
+          "number": "1 386-688-3295"
+        }
+      ]
+    }
+  ]
+}
