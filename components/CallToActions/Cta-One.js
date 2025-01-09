@@ -22,16 +22,15 @@ const CtaOne = () => {
                 data-sal-duration="400"
                 data-sal-delay="200"
               >
-                Join our aI Experts community
+              Let’s connect!
               </h4>
               <p
                 className="sal-animate"
                 data-sal="slide-up"
                 data-sal-duration="400"
                 data-sal-delay="300"
-              >
-                Meet and learn from 100+ creators & companies who share how thay
-                use AI to create better content at lightning speed.
+                >
+                Transform your business with our solutions. 
               </p>
             </div>
           </div>
@@ -44,14 +43,14 @@ const CtaOne = () => {
               data-sal-duration="400"
               data-sal-delay="400"
             >
-              <div className="team-image">
+              {/* <div className="team-image">
                 <Image
                   src={TeamImg}
                   width={149}
                   height={49}
                   alt="Group Image"
                 />
-              </div>
+              </div> */}
               <Link className="btn-default" href="/contact"> 
                 Contact
               </Link>

@@ -5,6 +5,7 @@ import AiConsulting from "./ServiceSections/AiConsulting.js"
 import CorporatTraining from "./ServiceSections/CorporatTraining.js"
 import IntelligentEnterpriseSearch from "./ServiceSections/IntelligentEnterpriseSearch.js"
 import NoCodeMLBI from "./ServiceSections/NoCodeMLBI.js"
+import CRM from "./ServiceSections/CRM.js"
 // import ColorPalette from "./StyleSections/ColorPalette";
 // import Gradient from "./StyleSections/Gradient";
 // import Typography from "./StyleSections/Typography";
@@ -55,6 +56,12 @@ const StyleGuide = () => {
                 className="rbt-elements-area rbt-shadow-box mb--60"
               >
                 <NoCodeMLBI />
+              </div>
+              <div
+                id="CRM"
+                className="rbt-elements-area rbt-shadow-box mb--60"
+              >
+                <CRM />
               </div>
               
             </div>

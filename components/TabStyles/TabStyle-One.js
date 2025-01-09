@@ -2,27 +2,24 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 
-import {TabData} from "../../data/tabStyle.jsx";
+import { TabData } from "../../data/tabStyle.jsx";
 import { useAppContext } from "@/context/Context";
 
-const TabStyleOne = () => {
+const TabStyleOne = ({ selectedTab, setSelectedTab }) => {
   const { isLightTheme } = useAppContext();
+
   return (
     <>
       <div className="row row--30 align-items-center">
         <div className="col-lg-12">
-          <div className="rainbow-default-tab style-three generator-tab-defalt">
-            <ul className="nav nav-tabs tab-button" role="tablist">
+          <div className="rainbow-default-tab style-three generator-tab-defalt ">
+            <ul className="nav nav-tabs tab-button " role="tablist">
               {TabData &&
                 TabData.TabStyleOne.map((data, index) => (
-                  <li
-                    className="nav-item tabs__tab "
-                    role="presentation"
-                    key={index}
-                  >
+                  <li className="nav-item tabs__tab" role="presentation" key={index}>
                     <button
-                      className={` min-w-500-desktop nav-link rainbow-gradient-btn without-shape-circle  ${
-                        data.isSelect ? "active" : ""
+                      className={`min-w-500-desktop nav-link rainbow-gradient-btn without-shape-circle ${
+                        selectedTab === data.target ? "active" : ""
                       }`}
                       id={`${data.menuId}-tab`}
                       data-bs-toggle="tab"
@@ -30,8 +27,8 @@ const TabStyleOne = () => {
                       type="button"
                       role="tab"
                       aria-controls={data.target}
-                      aria-selected="false"
-                      // style={{ minWidth : "400px"}}
+                      aria-selected={selectedTab === data.target}
+                      onClick={() => setSelectedTab(data.target)}
                     >
                       <span className="generator-icon">
                         <Image
@@ -42,18 +39,17 @@ const TabStyleOne = () => {
                         />
                         {data.text}
                       </span>
-                      <span className="border-bottom-style"></span>
+                      {/* <span className="border-bottom-style"></span> */}
                     </button>
                   </li>
                 ))}
             </ul>
-
             <div className="rainbow-tab-content tab-content">
               {TabData &&
                 TabData.TabStyleOne.map((tab, index) => (
                   <div
                     className={`tab-pane fade ${
-                      tab.isSelect ? "show active" : ""
+                      selectedTab === tab.target ? "show active" : ""
                     }`}
                     id={tab.target}
                     role="tabpanel"
@@ -78,7 +74,7 @@ const TabStyleOne = () => {
                             <div className="read-more">
                               <Link
                                 className="btn-default color-blacked"
-                                href="#"
+                                href="/services#"
                               >
                                 Start Exploring Now
                                 <i className="fa-sharp fa-solid fa-arrow-right ps-2"></i>

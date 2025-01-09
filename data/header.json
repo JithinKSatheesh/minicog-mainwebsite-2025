@@ -44,12 +44,7 @@
       "isMenu": false,
       "text": "Services"
     },
-    {
-      "link": "/help",
-      "isIcon": false,
-      "isMenu": false,
-      "text": "FAQ"
-    },
+    
     {
       "link": "/contact",
       "isIcon": false,

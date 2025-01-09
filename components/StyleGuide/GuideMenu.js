@@ -11,6 +11,7 @@ const GuideMenu = () => {
     { id: "Corporate", label: "Corporate Taining & Bootcamp" },
     { id: "Search", label: "Intelligent Enterprise Search Engine." },
     { id: "NoCode", label: "NoCode ML & BI Tool for Managers" },
+    { id: "CRM", label: "CRM & ERP Software" },
     // { id: "pagination", label: "Pagination" },
     // { id: "avatars", label: "Avatars" },
     // { id: "animatedHeading", label: "Animated Heading" },
@@ -23,6 +24,7 @@ const GuideMenu = () => {
       "Corporate",
       "Search",
       "NoCode",
+      "CRM",
     ];
 
     const handleScroll = () => {

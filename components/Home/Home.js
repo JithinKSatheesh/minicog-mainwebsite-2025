@@ -3,14 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 import Sal from "sal.js";
 
-import PricingData from "../../data/pricing.json";
+// import PricingData from "../../data/pricing.json";
 
-import SplitImg from "../../public/images/split/split-2.png";
-import SplitLogo from "../../public/images/split/split-2-logo.png";
-import DarkSplitImg from "../../public/images/light/split/split-2.png";
-import DarkSplitLogo from "../../public/images/light/split/split-2-logo.png";
-import bannerImg from "../../public/images/bg/slider-main-image.png";
-import bannerWhiteImg from "../../public/images/light/bg/slider-main-image.png";
+// import SplitImg from "../../public/images/split/split-2.png";
+// import SplitLogo from "../../public/images/split/split-2-logo.png";
+// import DarkSplitImg from "../../public/images/light/split/split-2.png";
+// import DarkSplitLogo from "../../public/images/light/split/split-2-logo.png";
+// import bannerImg from "../../public/images/bg/slider-main-image.png";
+// import bannerWhiteImg from "../../public/images/light/bg/slider-main-image.png";
 import shapeOne from "../../public/images/bg/icon-shape/icon-shape-one.png";
 import shapeTwo from "../../public/images/bg/icon-shape/icon-shape-two.png";
 import shapeThree from "../../public/images/bg/icon-shape/icon-shape-three.png";
@@ -18,23 +18,25 @@ import shapeFour from "../../public/images/bg/icon-shape/icon-shape-four.png";
 import bgShape from "../../public/images/bg/split-bg-shape.png";
 import bgShapeOne from "../../public/images/bg/bg-shape-four.png";
 import bgShapeTwo from "../../public/images/bg/bg-shape-five.png";
-import bgShapeThree from "../../public/images/bg/bg-shape-two.png";
+// import bgShapeThree from "../../public/images/bg/bg-shape-two.png";
 
 import BrandList from "../Brands/BrandList";
 import TabStyleOne from "../TabStyles/TabStyle-One";
 import ServiceStyleOne from "../Services/ServiceStyle-One";
 import AdvanceTab from "../TabStyles/AdvanceTab";
 import CtaOne from "../CallToActions/Cta-One";
-import Pricing from "../Pricing/Pricing";
-import ServiceTwo from "../Services/Service-Two";
+// import Pricing from "../Pricing/Pricing";
+// import ServiceTwo from "../Services/Service-Two";
 import Testimonial from "../Testimonials/Testimonial";
-import BrandTwo from "../Brands/Brand-Two";
-import CtaTwo from "../CallToActions/Cta-Two";
+// import BrandTwo from "../Brands/Brand-Two";
+// import CtaTwo from "../CallToActions/Cta-Two";
 import { useAppContext } from "@/context/Context";
 
 const Home = () => {
   const [visibleIndex, setVisibleIndex] = useState(0);
   const { isLightTheme } = useAppContext();
+  const [selectedTab, setSelectedTab] = React.useState('video-generate');
+
 
   useEffect(() => {
     Sal();
@@ -110,7 +112,9 @@ const Home = () => {
                     Empowering Enterprises through
                     </div>
                     {/* <br /> */}
-                    <span className="theme-gradient">
+                    <span 
+                      style={{ minHeight: "100px"}}
+                      className="theme-gradient ">
                       {currentWord}
                       <span className="blinking-cursor">|</span>
                     </span>
@@ -213,7 +217,7 @@ const Home = () => {
               >
                 <p className="b1 mb--0 small-title">
                   {/* truest 800,000+ HIGHLY PRODUCTIVE Company */}
-                  Trusted by many highly productive companies
+                  Trusted by
                 </p>
               </div>
             </div>
@@ -247,11 +251,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <TabStyleOne />
+          <TabStyleOne 
+            selectedTab={selectedTab}
+            setSelectedTab={setSelectedTab}
+          />
         </div>
       </div>
-
-      <div className="rainbow-service-area rainbow-section-gap rainbow-section-gapBottom-big">
+      {/* =============================== */}
+      {selectedTab === 'audio-generate' && <div className="rainbow-service-area rainbow-section-gap rainbow-section-gapBottom-big">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -262,7 +269,7 @@ const Home = () => {
                 data-sal-delay="150"
               >
                 <h4 className="subtitle">
-                  <span className="theme-gradient">Assisting individuals</span>
+                  <span className="theme-gradient">Corporate Taining & Bootcamp</span>
                 </h4>
                 <h2 className="title mb--60">
                   We provide <br/> world class instructors
@@ -272,13 +279,20 @@ const Home = () => {
           </div>
         </div>
         <ServiceStyleOne />
-      </div>
+      </div>}
+      {/* ============================================= */}
+      {
+        selectedTab === 'video-generate' &&
+
       <div className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big">
         <div className="">
           <div className="text-center title  theme-gradient fs-3">
-            The process
+            AI Consulting & Development Services
           </div>
-          <div className="text-center title mb--40 h2">
+          {/* <div className="text-center d-xl-block d-none   mb--40 h2">
+            People choose us because <br/> we take our process serious
+          </div> */}
+          <div className="text-center  title mb--40 fs-1 text-white">
             People choose us because <br/> we take our process serious
           </div>
         </div>
@@ -291,7 +305,8 @@ const Home = () => {
           <Image src={bgShape} width={630} height={879} alt="Bg Shape" />
         </div>
       </div>
-
+      }
+      {/* ============================================= */}
       {/* <div className="rainbow-collobration-area rainbow-section-gap-big">
         <div className="container">
           <div className="row">
@@ -411,14 +426,14 @@ const Home = () => {
           />
         </div>
       </div> */}
-
-      <div className="aiwave-service-area rainbow-section-gap">
+      <div className="mt--80"></div>
+      {/* <div className="aiwave-service-area rainbow-section-gap">
         <div className="container">
           <div className="row row--15 service-wrapper">
             <ServiceTwo />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="rainbow-testimonial-area rainbow-section-gap">
         <div className="container">

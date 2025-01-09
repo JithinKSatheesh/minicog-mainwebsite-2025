@@ -339,6 +339,12 @@ div {
             color: #fff;
             font-size: 16px;
             font-weight: 500;
+
+            @media screen and (max-width: 576px) {
+                font-size: 12px;
+                line-height: 15px;
+
+            }
         }
 
         &::before,

@@ -7,7 +7,7 @@ export const TabData = {
       "menuId": "video-generator",
       "text": "AI Consulting & Development Services",
       "target": "video-generate",
-      "iconImg": "/images/icons/video-g.png",
+      "iconImg": "/images/icons/text-g.png",
       "isSelect": true,
       "subItem": [
         {
@@ -31,7 +31,7 @@ export const TabData = {
       "menuId": "audio-generator",
       "text": "Corporate Taining & Bootcamp",
       "target": "audio-generate",
-      "iconImg": "/images/icons/audio-g.png",
+      "iconImg": "/images/icons/text-g.png",
       "isSelect": false,
       "subItem": [
         {
@@ -55,7 +55,7 @@ export const TabData = {
       "menuId": "photo-generator",
       "text": "Intelligent Enterprise Search Engine",
       "target": "photo-generate",
-      "iconImg": "/images/icons/photo-g.png",
+      "iconImg": "/images/icons/text-g.png",
       "isSelect": false,
       "subItem": [
         {
@@ -94,6 +94,46 @@ export const TabData = {
         {
           "text": "Collaboration & Integration"
         }
+      ]
+    },
+    {
+      "title": "CRM & ERP Software",
+      "img": "/imagesCustom/icons/erp.webp",
+      "imgLight": "/imagesCustom/icons/erp.webp",
+      "menuId": "crm-erp",
+      "text": "CRM & ERP Software",
+      "target": "crm-erp",
+      "iconImg": "/images/icons/text-g.png",
+      "isSelect": false,
+      "subItem": [
+        {
+          "text": "Automation of Business Processes"
+        },
+        {
+          "text": "Real-Time Reporting and Analytics"
+        },
+        {
+          "text": "Scalable and Customizable Solutions"
+        },
+        {
+          "text": "Centralized Data Management"
+        }
+      ]
+    },
+    {
+      "title": "Software consulting",
+      "img": "/imagesCustom/icons/software.webp",
+      "imgLight": "/imagesCustom/icons/software.webp",
+      "menuId": "Softwareconsulting",
+      "text": "Software consulting",
+      "target": "Softwareconsulting",
+      "iconImg": "/images/icons/text-g.png",
+      "isSelect": false,
+      "subItem": [
+        { "text": "Analyze needs & identify tools" },
+        { "text": "Design or optimize software" },
+        { "text": "Support software implementation" },
+        { "text": "Enhance performance & scalability" }
       ]
     }
   ],
