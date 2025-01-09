@@ -32,7 +32,7 @@ const Footer = () => {
                   <p className="b1 desc-text">
                   We bring the power of data science and <br/> artificial intelligence to every business
                   </p>
-                  <h6 className="subtitle">Join a Newsletter</h6>
+                  {/* <h6 className="subtitle">Join a Newsletter</h6>
                   <form className="newsletter-form" action="#">
                     <div className="form-group">
                       <input type="email" placeholder="Enter Your Email Here" />
@@ -43,7 +43,7 @@ const Footer = () => {
                         <i className="fa-sharp fa-regular fa-arrow-right"></i>
                       </button>
                     </div>
-                  </form>
+                  </form> */}
                 </div>
               </div>
 

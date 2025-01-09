@@ -121,19 +121,19 @@ export const TabData = {
       ]
     },
     {
-      "title": "Software consulting",
+      "title": "Robotic Process Automation",
       "img": "/imagesCustom/icons/software.webp",
       "imgLight": "/imagesCustom/icons/software.webp",
-      "menuId": "Softwareconsulting",
-      "text": "Software consulting",
-      "target": "Softwareconsulting",
+      "menuId": "Robotic Process Automation",
+      "text": "Robotic Process Automation",
+      "target": "Robotic Process Automation",
       "iconImg": "/images/icons/text-g.png",
       "isSelect": false,
       "subItem": [
-        { "text": "Analyze needs & identify tools" },
-        { "text": "Design or optimize software" },
-        { "text": "Support software implementation" },
-        { "text": "Enhance performance & scalability" }
+        { "text": "Automation of Repetitive Tasks" },
+        { "text": "Improves Accuracy and Efficiency" },
+        { "text": "Cost-Effective Solution" },
+        { "text": "Integrates with Existing Systems" }
       ]
     }
   ],

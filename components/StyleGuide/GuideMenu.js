@@ -12,6 +12,7 @@ const GuideMenu = () => {
     { id: "Search", label: "Intelligent Enterprise Search Engine." },
     { id: "NoCode", label: "NoCode ML & BI Tool for Managers" },
     { id: "CRM", label: "CRM & ERP Software" },
+    { id: "robotic", label: "Robotic Process Automation" },
     // { id: "pagination", label: "Pagination" },
     // { id: "avatars", label: "Avatars" },
     // { id: "animatedHeading", label: "Animated Heading" },
@@ -25,6 +26,7 @@ const GuideMenu = () => {
       "Search",
       "NoCode",
       "CRM",
+      "robotic",
     ];
 
     const handleScroll = () => {

@@ -68,7 +68,7 @@ const PopupMobileMenu = () => {
           <div className="header-btn d-block d-md-none">
             <Link
               className="btn-default"
-              target="_blank"
+              // target="_blank"
               href="/contact"
             >
               Get Started

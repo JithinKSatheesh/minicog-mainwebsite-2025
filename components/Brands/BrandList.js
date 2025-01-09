@@ -23,17 +23,17 @@ import brandImg8 from "../../public/imagesCustom/brands/l4-brand8.png";
 const BrandList = () => {
   var settings = {
     centerMode: true,
-    draggable: false,
+    draggable: true,
     centerPadding: "150px",
-    dots: false,
+    dots: true,
     arrows: false,
-    infinite: true,
+    // infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 8000,
-    pauseOnHover: true,
+    speed: 2000,
+    // pauseOnHover: true,
     cssEase: "linear",
     responsive: [
       {
@@ -81,7 +81,7 @@ const BrandList = () => {
         className="brand-list brand-style-2 slider-brand slider-brand-activation"
       >
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="#" className="pe-none">
             <Image
               src={brandImg1}
               alt="Brand Image"
@@ -90,7 +90,7 @@ const BrandList = () => {
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="#" className="pe-none" >
             <Image
               src={brandImg7}
               alt="Brand Image"
@@ -99,7 +99,7 @@ const BrandList = () => {
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="#" className="pe-none" >
             <Image
               src={brandImg2}
               width={132}
@@ -111,7 +111,7 @@ const BrandList = () => {
         </li>
         
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="#" className="pe-none">
             <Image
               src={brandImg6}
               alt="Brand Image"
@@ -121,7 +121,7 @@ const BrandList = () => {
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="#" className="pe-none" >
             <Image
               src={brandImg5}
               width={165}
@@ -132,7 +132,7 @@ const BrandList = () => {
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="#" className="pe-none" >
             <Image
               src={brandImg4}
               width={110}
@@ -143,7 +143,7 @@ const BrandList = () => {
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="#" className="pe-none" >
             <Image
               src={brandImg3}
               width={132}
@@ -154,7 +154,7 @@ const BrandList = () => {
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="#" className="pe-none" >
             <Image
               src={brandImg8}
               width={132}

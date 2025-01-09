@@ -34,7 +34,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
   }, []);
   return (
     <>
-      <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} />
+      {/* <DarkSwitch isLight={isLightTheme} switchTheme={toggleTheme} /> */}
       <header
         className={`rainbow-header header-default ${headerTransparent} ${headerSticky} ${
           isSticky ? "sticky" : ""
