@@ -27,13 +27,13 @@
       "img": "/images/service/service-icon-02.png",
       "imgLight": "/images/light/service/service-icon-02.png",
       "title": "Robotic Process Automation",
-      "desc": "streamlines business operations by using software bots "
+      "desc": "streamlines business operations by using software bots."
     },
     {
       "img": "/images/service/service-icon-03.png",
       "imgLight": "/images/light/service/service-icon-03.png",
       "title": "CRM & ERP Software",
-      "desc": "Streamline business operations, manage customer interactions, automate workflows,"
+      "desc": "Streamline business operations, manage customer interactions, automate workflows."
     }
   ]
 }

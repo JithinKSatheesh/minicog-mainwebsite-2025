@@ -30,7 +30,7 @@ const CtaOne = () => {
                 data-sal-duration="400"
                 data-sal-delay="300"
               >
-                Meet and learn from 80+ creators & companies who share how thay
+                Meet and learn from 100+ creators & companies who share how thay
                 use AI to create better content at lightning speed.
               </p>
             </div>
@@ -52,8 +52,8 @@ const CtaOne = () => {
                   alt="Group Image"
                 />
               </div>
-              <Link className="btn-default" href="#">
-                Join Now Today Free
+              <Link className="btn-default" href="/contact"> 
+                Contact
               </Link>
             </div>
           </div>

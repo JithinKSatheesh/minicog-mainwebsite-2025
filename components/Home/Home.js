@@ -242,7 +242,7 @@ const Home = () => {
                   </span>
                 </h4>
                 <h2 className="title mb--0">
-                  Services  we offer.
+                  Services  we offer
                 </h2>
               </div>
             </div>
@@ -265,7 +265,7 @@ const Home = () => {
                   <span className="theme-gradient">Assisting individuals</span>
                 </h4>
                 <h2 className="title mb--60">
-                  We provide <br/> world class instructors.
+                  We provide <br/> world class instructors
                 </h2>
               </div>
             </div>
@@ -433,7 +433,7 @@ const Home = () => {
                 <h4 className="subtitle">
                   <span className="theme-gradient">Testimonials </span>
                 </h4>
-                <h2 className="title mb--60">Listen to our clients</h2>
+                <h2 className="title mb--60">Our Clients Speak For Us</h2>
               </div>
             </div>
           </div>

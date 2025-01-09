@@ -72,6 +72,7 @@ const Testimonial = () => {
               TestimonialData.testimonial.map((data, index) => (
                 <div className="slide-single-layout" key={index}>
                   <div
+                    style={{ minHeight : "320px"}}
                     className={`rainbow-box-card ${
                       data.isActive ? "active" : ""
                     } card-style-default testimonial-style-defalt has-bg-shaped`}

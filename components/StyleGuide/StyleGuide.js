@@ -1,16 +1,22 @@
 import React from "react";
 import GuideMenu from "./GuideMenu";
-import ColorPalette from "./StyleSections/ColorPalette";
-import Gradient from "./StyleSections/Gradient";
-import Typography from "./StyleSections/Typography";
-import FormElements from "./StyleSections/FormElements";
-import Pagination from "./StyleSections/Pagination";
-import Avatars from "./StyleSections/Avatars";
-import AnimatedHeading from "./StyleSections/AnimatedHeading";
+import SoftwareConsulting from "./ServiceSections/SoftwareConsulting.js"
+import AiConsulting from "./ServiceSections/AiConsulting.js"
+import CorporatTraining from "./ServiceSections/CorporatTraining.js"
+import IntelligentEnterpriseSearch from "./ServiceSections/IntelligentEnterpriseSearch.js"
+import NoCodeMLBI from "./ServiceSections/NoCodeMLBI.js"
+// import ColorPalette from "./StyleSections/ColorPalette";
+// import Gradient from "./StyleSections/Gradient";
+// import Typography from "./StyleSections/Typography";
+// import FormElements from "./StyleSections/FormElements";
+// import Pagination from "./StyleSections/Pagination";
+// import Avatars from "./StyleSections/Avatars";
+// import AnimatedHeading from "./StyleSections/AnimatedHeading";
 
 const StyleGuide = () => {
   return (
     <>
+      <div className="pt--30"></div>
       <div className="rbt-style-guide-area rbt-utilize-area rainbow-section-gap-big">
         <div className="container">
           <div className="row g-5">
@@ -21,47 +27,36 @@ const StyleGuide = () => {
             </div>
             <div className="col-lg-9">
               <div
-                id="colorPalette"
+                id="Software"
                 className="rbt-elements-area rbt-shadow-box mb--60"
               >
-                <ColorPalette />
+                <SoftwareConsulting />
               </div>
               <div
-                id="gradient"
+                id="Consulting"
                 className="rbt-elements-area rbt-shadow-box mb--60"
               >
-                <Gradient />
+                <AiConsulting />
               </div>
               <div
-                id="typography"
+                id="Corporate"
                 className="rbt-elements-area rbt-shadow-box mb--60"
               >
-                <Typography />
+                <CorporatTraining />
               </div>
               <div
-                id="formElements"
+                id="Search"
                 className="rbt-elements-area rbt-shadow-box mb--60"
               >
-                <FormElements />
+                <IntelligentEnterpriseSearch />
               </div>
               <div
-                id="pagination"
+                id="NoCode"
                 className="rbt-elements-area rbt-shadow-box mb--60"
               >
-                <Pagination />
+                <NoCodeMLBI />
               </div>
-              <div
-                id="avatars"
-                className="rbt-elements-area rbt-shadow-box mb--60"
-              >
-                <Avatars />
-              </div>
-              <div
-                id="animatedHeading"
-                className="rbt-elements-area rbt-shadow-box mb--60"
-              >
-                <AnimatedHeading />
-              </div>
+              
             </div>
           </div>
         </div>

@@ -53,7 +53,7 @@ export const TabData = {
       "img": "/imagesCustom/icons/search.webp",
       "imgLight": "/imagesCustom/icons/search.webp",
       "menuId": "photo-generator",
-      "text": "Intelligent Enterprise Search Engine.",
+      "text": "Intelligent Enterprise Search Engine",
       "target": "photo-generate",
       "iconImg": "/images/icons/photo-g.png",
       "isSelect": false,

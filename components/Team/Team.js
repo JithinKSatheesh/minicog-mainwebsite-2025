@@ -11,7 +11,7 @@ const Team = () => {
 
   return (
     <>
-      <div className="rbt-team-area bg-color-1 rainbow-section-gap-big pb--0">
+      {/* <div className="rbt-team-area bg-color-1 rainbow-section-gap-big pb--0">
         <div className="container">
           <div className="row row--15 mt_dec--30">
             {TeamData &&
@@ -55,9 +55,10 @@ const Team = () => {
               ))}
           </div>
         </div>
-      </div>
+      </div> */}
+      <div className="pt--30"></div>
 
-      <div className="rbt-team-area bg-color-1 rainbow-section-gap-big">
+      <div className="rbt-team-area bg-color-1 rainbow-section-gap-big ">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
@@ -68,16 +69,16 @@ const Team = () => {
                 data-sal-delay="150"
               >
                 <h4 className="subtitle">
-                  <span className="theme-gradient">Rainbow team mbember</span>
+                  <span className="theme-gradient">Meet The Team</span>
                 </h4>
-                <h2 className="title w-600 mb--20">We Are Here To Serve You</h2>
+                <h3 className="title w-600 mb--20">We're a team of AI Experts, Data Scientists, Robotics Engineers, <br/> Open Source Contributers and Researchers.</h3>
               </div>
             </div>
           </div>
 
           <div className="row row--15 mt_dec--30">
             {TeamData &&
-              TeamData.team.slice(3, 9).map((data, index) => (
+              TeamData.team.map((data, index) => (
                 <div className="col-lg-4 col-md-6 col-12 mt--30" key={index}>
                   <div className="rbt-team team-style-default style-three rbt-hover">
                     <div className="inner">
@@ -93,7 +94,7 @@ const Team = () => {
                         <h2 className="title">{data.name}</h2>
                         <h6 className="subtitle">{data.profission}</h6>
                         <span className="team-form">
-                          <i className="feather-map-pin"></i>
+                          {/* <i className="feather-map-pin"></i> */}
                           <span className="location">{data.location}</span>
                         </span>
                       </div>

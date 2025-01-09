@@ -6,24 +6,23 @@ const GuideMenu = () => {
   const [currentSection, setCurrentSection] = useState("colorpalette");
 
   const sections = [
-    { id: "colorPalette", label: "Color Palette" },
-    { id: "gradient", label: "Color Gradient" },
-    { id: "typography", label: "Typography" },
-    { id: "formElements", label: "Form Elements" },
-    { id: "pagination", label: "Pagination" },
-    { id: "avatars", label: "Avatars" },
-    { id: "animatedHeading", label: "Animated Heading" },
+    { id: "Software", label: "Software Consulting" },
+    { id: "Consulting", label: "AI Consulting & Development Services" },
+    { id: "Corporate", label: "Corporate Taining & Bootcamp" },
+    { id: "Search", label: "Intelligent Enterprise Search Engine." },
+    { id: "NoCode", label: "NoCode ML & BI Tool for Managers" },
+    // { id: "pagination", label: "Pagination" },
+    // { id: "avatars", label: "Avatars" },
+    // { id: "animatedHeading", label: "Animated Heading" },
   ];
 
   useEffect(() => {
     const sectionIds = [
-      "colorPalette",
-      "gradient",
-      "typography",
-      "formElements",
-      "pagination",
-      "avatars",
-      "animatedHeading",
+      "Software",
+      "Consulting",
+      "Corporate",
+      "Search",
+      "NoCode",
     ];
 
     const handleScroll = () => {
