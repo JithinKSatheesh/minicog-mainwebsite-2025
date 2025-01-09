@@ -63,6 +63,7 @@ export default function App({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
+    // Remove the Bootstrap JS require and use static CSS
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
 
     const handleRouteChange = () => {

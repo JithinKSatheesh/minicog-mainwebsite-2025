@@ -6,18 +6,14 @@ import PageHead from "../Head";
 import HeaderTop from "@/components/Header/HeaderTop/HeaderTop";
 import Header from "@/components/Header/Header";
 import PopupMobileMenu from "@/components/Header/PopUpMobileMenu";
+import Home from "@/components/Home/Home";
 import Footer from "@/components/Footers/Footer";
 import Copyright from "@/components/Footers/Copyright";
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import BackToTop from "../backToTop";
-import Contact from "@/components/Contact/Contact";
-import CtaTwo from "@/components/CallToActions/Cta-Two";
-import ContactFormConsulting from "@/components/Contact/ContactFormConsulting";
 
-const ContactPage = () => {
+const HomePage = () => {
   return (
     <>
-      <PageHead title="Contact" />
+      <PageHead title="Home" />
 
       <main className="page-wrapper">
         <Context>
@@ -28,27 +24,14 @@ const ContactPage = () => {
             btnClass="rainbow-gradient-btn"
           />
           <PopupMobileMenu />
-          <Breadcrumb
-            title="Get Started With Us"
-            text="Contact"
-          />
 
-          <Contact />
-
-          {/* <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
-            <div className="container">
-              <CtaTwo />
-            </div>
-          </div> */}
-
-          <BackToTop />
+          <Home />
           <Footer />
           <Copyright />
         </Context>
       </main>
-      <ContactFormConsulting />
     </>
   );
 };
 
-export default ContactPage;
+export default HomePage;

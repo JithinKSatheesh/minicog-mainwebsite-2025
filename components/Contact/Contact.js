@@ -123,7 +123,9 @@ const Contact = () => {
               </div> */}
               <div className="col-lg-6 mt_md--30 mt_sm--30">
 
-                <div className="rainbow-address">
+                <div 
+                   data-bs-toggle="modal" data-bs-target="#modalConsultingTypeForm"
+                  className="rainbow-address">
                   <div className="icon">
                     <i className="fa-sharp fa-regular fa-location-dot"></i>
                   </div>

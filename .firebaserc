@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "soulcodesolutions"
+  },
+  "targets": {
+    "soulcodesolutions": {
+      "hosting": {
+        "minicog": [
+          "minicog-preview"
+        ]
+      }
+    }
+  }
+}

@@ -12,7 +12,6 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import BackToTop from "../backToTop";
 import Contact from "@/components/Contact/Contact";
 import CtaTwo from "@/components/CallToActions/Cta-Two";
-import ContactFormConsulting from "@/components/Contact/ContactFormConsulting";
 
 const ContactPage = () => {
   return (
@@ -46,7 +45,6 @@ const ContactPage = () => {
           <Copyright />
         </Context>
       </main>
-      <ContactFormConsulting />
     </>
   );
 };
