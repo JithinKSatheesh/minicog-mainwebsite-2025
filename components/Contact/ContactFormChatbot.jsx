@@ -1,19 +1,19 @@
 import { useEffect, useState } from "react";
 
 export default function ContactFormiFrame() {
-  const [iframeSrc, setIframeSrc] = useState('https://maker840823.typeform.com/to/E0PD2M');
+  const [iframeSrc, setIframeSrc] = useState('https://links.collect.chat/5dba679ba3d4732f9663f484');
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     // Import Bootstrap dynamically
     import("bootstrap").then(({ Modal }) => {
-      const modalElement = document.getElementById("modalConsultingTypeForm");
+      const modalElement = document.getElementById("modalChatbot");
       // const myModal = new Modal(modalElement);
 
       // Show iframe source and start loading when modal opens
       modalElement.addEventListener("show.bs.modal", () => {
         setIsLoading(true);
-        setIframeSrc("https://maker840823.typeform.com/to/E0PD2M");
+        setIframeSrc("https://links.collect.chat/5dba679ba3d4732f9663f484");
       });
 
       // Clear iframe source and stop loading when modal closes
@@ -28,7 +28,7 @@ export default function ContactFormiFrame() {
     <>
       <div
         className="modal fade"
-        id="modalConsultingTypeForm"
+        id="modalChatbot"
         tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"

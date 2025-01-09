@@ -1,19 +1,19 @@
 import { useEffect, useState } from "react";
 
 export default function ContactFormiFrame() {
-  const [iframeSrc, setIframeSrc] = useState('https://maker840823.typeform.com/to/E0PD2M');
+  const [iframeSrc, setIframeSrc] = useState('https://maker840823.typeform.com/to/aw9QGU');
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     // Import Bootstrap dynamically
     import("bootstrap").then(({ Modal }) => {
-      const modalElement = document.getElementById("modalConsultingTypeForm");
+      const modalElement = document.getElementById("modalCorporateTraining");
       // const myModal = new Modal(modalElement);
 
       // Show iframe source and start loading when modal opens
       modalElement.addEventListener("show.bs.modal", () => {
         setIsLoading(true);
-        setIframeSrc("https://maker840823.typeform.com/to/E0PD2M");
+        setIframeSrc("https://maker840823.typeform.com/to/aw9QGU");
       });
 
       // Clear iframe source and stop loading when modal closes
@@ -28,7 +28,7 @@ export default function ContactFormiFrame() {
     <>
       <div
         className="modal fade"
-        id="modalConsultingTypeForm"
+        id="modalCorporateTraining"
         tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"

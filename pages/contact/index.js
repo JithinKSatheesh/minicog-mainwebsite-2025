@@ -13,6 +13,10 @@ import BackToTop from "../backToTop";
 import Contact from "@/components/Contact/Contact";
 import CtaTwo from "@/components/CallToActions/Cta-Two";
 import ContactFormConsulting from "@/components/Contact/ContactFormConsulting";
+import ContactFormChatbot from "@/components/Contact/ContactFormChatbot";
+import ContactFormCorporate from "@/components/Contact/ContactFormCorporate";
+import ContactFormGetResource from "@/components/Contact/ContactFormGetResource";
+
 
 const ContactPage = () => {
   return (
@@ -47,6 +51,9 @@ const ContactPage = () => {
         </Context>
       </main>
       <ContactFormConsulting />
+      <ContactFormChatbot />
+      <ContactFormCorporate />
+      <ContactFormGetResource />
     </>
   );
 };
