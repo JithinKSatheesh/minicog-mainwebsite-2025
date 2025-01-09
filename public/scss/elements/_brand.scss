@@ -98,6 +98,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    // align-items: center;
+
     @media #{$small-mobile} {
         gap: 30px;
     }
@@ -130,7 +132,7 @@
             img {
                 opacity: 0.6;
                 transition: 0.3s;
-                max-height: 34px;
+                // max-height: 34px;
             }
         }
 

@@ -4,12 +4,14 @@ import React from "react";
 import Slider from "react-slick";
 
 // import brandImg1 from "../../public/images/brand/strapi.png";
+// import brandImg3 from "../../public/imagesCustom/brands/l4-brand3.png";
 import brandImg1 from "../../public/imagesCustom/brands/l4-brand1.png";
 import brandImg2 from "../../public/imagesCustom/brands/l4-brand2.png";
-import brandImg3 from "../../public/imagesCustom/brands/l4-brand3.png";
+import brandImg3 from "../../public/imagesCustom/brands/l4-brand3.webp";
 import brandImg4 from "../../public/imagesCustom/brands/l4-brand4.png";
-import brandImg5 from "../../public/imagesCustom/brands/l4-brand5.png";
-import brandImg6 from "../../public/imagesCustom/brands/l4-brand3.png";
+import brandImg5 from "../../public/imagesCustom/brands/l4-brand55.png";
+import brandImg6 from "../../public/imagesCustom/brands/l4-brand6.png";
+import brandImg7 from "../../public/imagesCustom/brands/l4-brand7.png";
 // import brandImg1 from "../../public/images/brand/strapi.png";
 // import brandImg2 from "../../public/images/brand/stenciljs.png";
 // import brandImg3 from "../../public/images/brand/spotify.png";
@@ -81,10 +83,17 @@ const BrandList = () => {
           <Link href="#">
             <Image
               src={brandImg1}
-              width={132}
-              height="auto"
               alt="Brand Image"
-              style={{ filter : "brightness(0) invert(1)" }}
+              style={{ filter : "brightness(0) invert(1)", width : "120px", height : "auto" }}
+            />
+          </Link>
+        </li>
+        <li className="slide-single-layout">
+          <Link href="#">
+            <Image
+              src={brandImg7}
+              alt="Brand Image"
+              style={{  width : "170px", height : "auto" }}
             />
           </Link>
         </li>
@@ -95,29 +104,18 @@ const BrandList = () => {
               width={132}
               height="auto"
               alt="Brand Image"
-              style={{ filter : "brightness(0) invert(1)" }}
+              style={{ filter : "brightness(0) invert(1)", width : "150px", height : "50px"  }}
             />
           </Link>
         </li>
+        
         <li className="slide-single-layout">
           <Link href="#">
             <Image
-              src={brandImg3}
-              width={110}
-              height="auto"
+              src={brandImg6}
               alt="Brand Image"
-              style={{ filter : "brightness(0) invert(1)" }}
-            />
-          </Link>
-        </li>
-        <li className="slide-single-layout">
-          <Link href="#">
-            <Image
-              src={brandImg4}
-              width={165}
-              height="auto"
-              alt="Brand Image"
-              style={{ filter : "brightness(0) invert(1)" }}
+              style={{ width : "140px", height : "auto", marginTop : "-10px" }}
+              // style={{ filter : "brightness(0) invert(1)" }}
             />
           </Link>
         </li>
@@ -125,24 +123,40 @@ const BrandList = () => {
           <Link href="#">
             <Image
               src={brandImg5}
-              width={132}
+              width={165}
               height="auto"
               alt="Brand Image"
-              style={{ filter : "brightness(0) invert(1)" }}
+              style={{ filter : "brightness(0) invert(1)" , width : "220px", height : "auto"}}
             />
           </Link>
         </li>
         <li className="slide-single-layout">
           <Link href="#">
             <Image
-              src={brandImg6}
-              width={151}
+              src={brandImg4}
+              width={110}
               height="auto"
               alt="Brand Image"
-              style={{ filter : "brightness(0) invert(1)" }}
+              style={{ filter : "brightness(0) invert(1)", width : "220px", height : "auto", marginTop : "10px" }}
             />
           </Link>
         </li>
+        <li className="slide-single-layout">
+          <Link href="#">
+            <Image
+              src={brandImg3}
+              width={132}
+              height="auto"
+              alt="Brand Image"
+              style={{ filter : "brightness(0) invert(1)", width : "200px", height : "auto" }}
+            />
+          </Link>
+        </li>
+        
+        
+        
+        
+        
       </Slider>
     </>
   );
