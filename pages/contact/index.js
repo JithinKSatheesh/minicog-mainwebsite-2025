@@ -50,10 +50,10 @@ const ContactPage = () => {
           <Copyright />
         </Context>
       </main>
-      <ContactFormConsulting />
-      <ContactFormChatbot />
-      <ContactFormCorporate />
-      <ContactFormGetResource />
+      {/* <ContactFormConsulting /> */}
+      {/* <ContactFormChatbot /> */}
+      {/* <ContactFormCorporate /> */}
+      {/* <ContactFormGetResource /> */}
     </>
   );
 };
