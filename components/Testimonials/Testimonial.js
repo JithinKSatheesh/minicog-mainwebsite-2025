@@ -122,7 +122,9 @@ const Testimonial = () => {
                             </Link> : null}
                             <a className="image" href="#">
                               <Image
-                                src={data.userImg}
+                                // src={data.userImg}
+                                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${data.userImg}`}
+
                                 width={50}
                                 height={50}
                                 alt=""
@@ -135,14 +137,16 @@ const Testimonial = () => {
                     <div className="bg-shape">
                       <Image
                         className="bg"
-                        src={isLightTheme ? data.img : darkBg}
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${isLightTheme ? data.img : darkBg}`}
+                        // src={isLightTheme ? data.img : darkBg}
                         width={415}
                         height={287}
                         alt=""
                       />
                       <Image
                         className="bg-hover"
-                        src={isLightTheme ? data.imgHover : darkBgHover}
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${isLightTheme ? data.imgHover : darkBgHover}`}
+                        // src={isLightTheme ? data.imgHover : darkBgHover}
                         width={415}
                         height={287}
                         alt=""

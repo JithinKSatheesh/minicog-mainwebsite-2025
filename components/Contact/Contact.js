@@ -1,7 +1,7 @@
 import React from "react";
 // import Link from "next/link";
 
-// import ContactForm from "./ContactForm";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -10,7 +10,27 @@ const Contact = () => {
         <div className="rainbow-contact-area rainbow-section-gapTop-big">
           <div className="container">
             <div className="row _mt--40 row--15 mb--80">
-              
+            <div className="col-lg-12">
+                <div className="contact-details-box">
+                  {/* <h3 className="title">Get Started with a free quotation</h3> */}
+
+                  <div className="profile-details-tab">
+
+                    <div className="tab-content">
+                      <div
+                        className="tab-pane fade active show"
+                        id="image-genarator"
+                        role="tabpanel"
+                        aria-labelledby="image-genarator-tab"
+                      >
+                        <ContactForm />
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+{/*              
               <div className="col-lg-6 mt_md--30 mt_sm--30">
 
                 <div 
@@ -41,6 +61,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-6 mt_md--30 mt_sm--30">
                 <div 
                 data-bs-toggle="modal" data-bs-target="#modalGetResource"
@@ -67,14 +88,10 @@ const Contact = () => {
                     <p className="b2">
                       click to fill the form
                     </p>
-                    {/* <p className="b2">
-                      <Link href="mailto:example@gmail.com">
-                        example@gmail.com
-                      </Link>
-                    </p> */}
+                    
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

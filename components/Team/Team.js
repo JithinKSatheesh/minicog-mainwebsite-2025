@@ -84,7 +84,8 @@ const Team = () => {
                     <div className="inner">
                       <div className="thumbnail">
                         <Image
-                          src={data.img}
+                          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${data.img}`}
+                          // src={data.img}
                           width={364}
                           height={376}
                           alt="Corporate Template"

@@ -32,7 +32,8 @@ const TabStyleOne = ({ selectedTab, setSelectedTab }) => {
                     >
                       <span className="generator-icon">
                         <Image
-                          src={data.iconImg}
+                          // src={data.iconImg}
+                          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${data.iconImg}`}
                           width={24}
                           height={24}
                           alt="Vedio Generator Icon"
@@ -87,7 +88,9 @@ const TabStyleOne = ({ selectedTab, setSelectedTab }) => {
                             <div className="inner-without-padding">
                               <div className="export-img img-bg-shape">
                                 <Image
-                                  src={isLightTheme ? tab.img : tab.imgLight}
+                                  // src={isLightTheme ? tab.img : tab.imgLight}
+                                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${isLightTheme ? tab.img : tab.imgLight}`}
+
                                   width={569}
                                   height={483}
                                   alt="Chat example Image"

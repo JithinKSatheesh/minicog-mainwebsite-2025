@@ -69,7 +69,9 @@ const ServiceStyleOne = () => {
                       <div className="inner">
                         <div className="icon">
                           <Image
-                            src={data.img}
+                            // src={data.img}
+                            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${data.img}`}
+                            
                             width={48}
                             height={48}
                             alt="Servece Icon"

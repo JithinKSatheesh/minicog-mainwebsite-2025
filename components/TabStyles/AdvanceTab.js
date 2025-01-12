@@ -32,7 +32,8 @@ const AdvanceTab = () => {
                           <div className="thumbnail">
                             <Image
                               className="radius"
-                              src={data.img}
+                              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${data.img}`}
+                              // src={data.img}
                               width={544}
                               height={504}
                               alt="split Images"

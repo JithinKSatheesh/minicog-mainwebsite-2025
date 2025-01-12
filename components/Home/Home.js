@@ -125,7 +125,7 @@ const Home = () => {
                   Leverage our AI Consulting Services to take full advantage of the collected data and gain valuable insights that help automate business processes and boost revenue.
                 </p>
                 <div className="">
-                <Link className="btn-default " href="/text-generator">
+                <Link className="btn-default " href="/contact">
                     Contact Us
                   </Link>
                 </div>
