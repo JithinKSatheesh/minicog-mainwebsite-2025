@@ -72,7 +72,6 @@ const Testimonial = () => {
               TestimonialData.testimonial.map((data, index) => (
                 <div className="slide-single-layout" key={index}>
                   <div
-                    style={{ minHeight : "320px"}}
                     className={`rainbow-box-card ${
                       data.isActive ? "active" : ""
                     } card-style-default testimonial-style-defalt has-bg-shaped`}
@@ -96,7 +95,10 @@ const Testimonial = () => {
                         </a>
                       </div>
                       <div className="content">
-                        <p className="description">{data.desc}</p>
+                        <p 
+                        style={{ minHeight : "100px"}}
+                        
+                        className="description">{data.desc}</p>
                         <div className="bottom-content">
                           <div className="meta-info-section">
                             <p className="title-text">{data.name}</p>
@@ -126,7 +128,7 @@ const Testimonial = () => {
                                 src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${data.userImg}`}
 
                                 width={50}
-                                height={50}
+                                height={60}
                                 alt=""
                               />
                             </a>

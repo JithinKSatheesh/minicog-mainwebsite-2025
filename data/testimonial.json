@@ -1,23 +1,9 @@
 {
   "testimonial": [
     {
-      
+      "isActive" : false,
       "isBorder": true,
-      "desc": "The corporate training program was incredibly impactful.",
-      "name": "Karan Cascas",
-      "post": "Compliance Manager at HSBC",
-      "userImg": "/imagesCustom/testmonials/t4-card-2.png",
-      "brandImg": "/images/brand/brand-t.png",
-      "img": "/images/service/bg-testimonial.png",
-      "imgHover": "/images/service/bg-testimonial-hover.png",
-      "lightImg": "/images/light/service/bg-testimonial.png",
-      "lightImgHover": "/images/light/service/bg-testimonial-hover.png",
-      "video" : "https://youtu.be/XUpMxQp5YfQ"
-    },
-    {
-      "isActive" : true,
-      "isBorder": true,
-      "desc": "Their AI consulting brought clarity, innovation, and results beyond our expectations!",
+      "desc": "They helped us explore an AI powered approach to a business use case that we had. We were able to iterate faster to a working solution.",
       "name": "Saneem Perinkadakkat",
       "post": "CEO at Desh Keyboard",
       "userImg": "/imagesCustom/testmonials/saneem.jpeg",
@@ -39,6 +25,22 @@
       "lightImgHover": "/images/light/service/bg-testimonial-hover.png"
     },
     {
+      
+      "isBorder": true,
+      "desc": "The corporate training program was incredibly impactful.",
+      "name": "Karan Cascas",
+      "post": "Compliance Manager at HSBC",
+      "userImg": "/imagesCustom/testmonials/t4-card-2.png",
+      "brandImg": "/images/brand/brand-t.png",
+      "img": "/images/service/bg-testimonial.png",
+      "imgHover": "/images/service/bg-testimonial-hover.png",
+      "lightImg": "/images/light/service/bg-testimonial.png",
+      "lightImgHover": "/images/light/service/bg-testimonial-hover.png",
+      "video" : "https://youtu.be/XUpMxQp5YfQ"
+    },
+   
+   
+    {
       "desc": "Training on machine learning was very helpful.",
       "name": "Douglas Boyd",
       "post": "Petrophysicist at ADNOC",
@@ -51,7 +53,7 @@
       "video" : "https://youtu.be/fc1rKe2dBYY"
     },
     {
-      "isActive": true,
+      "isActive": false,
       "desc": "Helped me better understand the concepts of ML.",
       "name": "Karima Rahali",
       "post": "Founder at L'ATELIER",

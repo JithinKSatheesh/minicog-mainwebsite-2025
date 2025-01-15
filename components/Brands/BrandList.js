@@ -18,7 +18,7 @@ import brandImg4 from "../../public/imagesCustom/brands/l4-brand4.png";
 import brandImg5 from "../../public/imagesCustom/brands/l4-brand55.png";
 import brandImg6 from "../../public/imagesCustom/brands/l4-brand6.png";
 import brandImg7 from "../../public/imagesCustom/brands/l4-brand7.png";
-import brandImg8 from "../../public/imagesCustom/brands/l4-brand8.png";
+import brandImg8 from "../../public/imagesCustom/brands/l4-brand888.png";
 // import brandImg1 from "../../public/images/brand/strapi.png";
 // import brandImg2 from "../../public/images/brand/stenciljs.png";
 // import brandImg3 from "../../public/images/brand/spotify.png";
@@ -129,7 +129,7 @@ const BrandList = () => {
         <Image src={brandImg3} alt="Brand Image" width={200} height="auto" style={{ filter: 'brightness(0) invert(1)' }} />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={brandImg8} alt="Brand Image" width={160} height="auto" style={{ filter: 'brightness(0) invert(1)', marginTop: '10px' }} />
+        <Image src={brandImg8} alt="Brand Image" width={100} height="auto" style={{ filter: 'brightness(0) invert(1)' , marginTop: '-12px', marginLeft : "25px" }} />
       </SwiperSlide>
     </Swiper>
       {/* <Slider
